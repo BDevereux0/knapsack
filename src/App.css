@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  background: white;
+  color: #222;
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+}
+
+.knapsack {
+  max-width: 600px;
+  margin: 32px auto;
+  padding: 0 16px;
+}
+
+h1 { font-size: 28px; }
+h2 { font-size: 20px; }
+
+button {
+  padding: 6px 12px;
+  font: inherit;
+  cursor: pointer;
+}
+
+table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 8px;
+  border: 1px solid #bbb;
+  text-align: left;
+}
+
+th { background: #eee; }
+
+.selected-item > th,
+.selected-item > td {
+  background: #dcfce7;
+}
